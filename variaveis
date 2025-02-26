@@ -1,0 +1,29 @@
+<html><head><title>Aulas de PHP</title></head>
+<body bgcolor="yellow">
+<H1> Conhecendo Linguagem PHP</H1>
+<BR><BR>
+<?php
+
+echo "<H1> Conhecendo variavel de memoria</H1>";
+
+$idade=20;
+$saldoestoque=-100;
+$taxa=1.257;
+$indice=2.19999;
+$preco=12e4;
+
+$nome="Roberto Carlos";
+$profissao="Cantor";
+echo "<h2>Mostrando variaveis</h2>";
+echo $idade;
+echo "<br>";
+echo $saldoestoque;
+echo "<hr>";
+echo "Nome: ",$nome;
+
+?>
+
+
+
+</body>
+</html>
