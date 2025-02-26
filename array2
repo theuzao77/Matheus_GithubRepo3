@@ -1,0 +1,20 @@
+<html><head><title>Aulas de PHP</title></head>
+<body bgcolor="yellow">
+<H1> Conhecendo Linguagem PHP</H1>
+<BR><BR>
+<?php
+
+echo "<H1> Conhecendo variavel de memoria Arrays parte 2</H1>";
+
+$cor = array(1=>"azul",2=>"amarelo",3=>"verde");
+
+echo "<BR><h2> Mostrando valor da posicao 3</h2>";
+echo $cor[3];
+echo "<br>Fim";
+
+?>
+
+
+
+</body>
+</html>
